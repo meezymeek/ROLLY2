@@ -1,0 +1,293 @@
+Begin Object Class=/Script/Engine.Material Name="M_MetalFloor_01"
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAppendVector Name="MaterialExpressionAppendVector_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDesaturation Name="MaterialExpressionDesaturation_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionAdd_0"
+      A=(Expression=MaterialExpressionLinearInterpolate'"M_MetalFloor_01:MaterialExpressionLinearInterpolate_1"')
+      B=(Expression=MaterialExpressionTextureSample'"M_MetalFloor_01:MaterialExpressionTextureSample_1"',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=-560
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=5F2D7CBE48F0C4C0528FE69554DA999D
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_1"
+      A=(Expression=MaterialExpressionTextureSample'"M_MetalFloor_01:MaterialExpressionTextureSample_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionMultiply'"M_MetalFloor_01:MaterialExpressionMultiply_2"')
+      MaterialExpressionEditorX=-544
+      MaterialExpressionEditorY=304
+      MaterialExpressionGuid=BD78EF544CC25DB5A4A3F5ADDAE2A807
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_2"
+      A=(Expression=MaterialExpressionScalarParameter'"M_MetalFloor_01:MaterialExpressionScalarParameter_1"')
+      B=(Expression=MaterialExpressionScalarParameter'"M_MetalFloor_01:MaterialExpressionScalarParameter_1"')
+      MaterialExpressionEditorX=-816
+      MaterialExpressionEditorY=496
+      MaterialExpressionGuid=D79BC2A0470DE4262CCFBB98AB8B87C0
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_3"
+      A=(Expression=MaterialExpressionAppendVector'"M_MetalFloor_01:MaterialExpressionAppendVector_2"')
+      B=(Expression=MaterialExpressionConstant'"M_MetalFloor_01:MaterialExpressionConstant_3"')
+      MaterialExpressionEditorX=-704
+      MaterialExpressionEditorY=512
+      MaterialExpressionGuid=D79BC2A0470DE4262CCFBB98AB8B87C0
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionAppendVector_4"
+      A=(Expression=MaterialExpressionScalarParameter'"M_MetalFloor_01:MaterialExpressionScalarParameter_4"')
+      B=(Expression=MaterialExpressionScalarParameter'"M_MetalFloor_01:MaterialExpressionScalarParameter_4"')
+      MaterialExpressionEditorX=-1600
+      MaterialExpressionEditorY=-96
+      MaterialExpressionGuid=2CA9D1964419673953E681B8240A5DE1
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_3"
+      MaterialExpressionEditorX=-816
+      MaterialExpressionEditorY=592
+      MaterialExpressionGuid=BA21D84B49620628FD2735A45D903360
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionDesaturation_0"
+      Input=(Expression=MaterialExpressionMaterialFunctionCall'"M_MetalFloor_01:MaterialExpressionMaterialFunctionCall_0"')
+      MaterialExpressionEditorX=-847
+      MaterialExpressionEditorY=-533
+      MaterialExpressionGuid=90E2602C4E380A1EC4919ABE8347D81F
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      B=(Expression=MaterialExpressionDesaturation'"M_MetalFloor_01:MaterialExpressionDesaturation_0"')
+      Alpha=(Expression=MaterialExpressionScalarParameter'"M_MetalFloor_01:MaterialExpressionScalarParameter_0"')
+      ConstA=1.000000
+      ConstAlpha=1.000000
+      MaterialExpressionEditorX=-704
+      MaterialExpressionEditorY=-544
+      MaterialExpressionGuid=CC5228AC44B665D5E7D4AF8982E6982A
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_1"
+      B=(Expression=MaterialExpressionOneMinus'"M_MetalFloor_01:MaterialExpressionOneMinus_0"')
+      Alpha=(Expression=MaterialExpressionScalarParameter'"M_MetalFloor_01:MaterialExpressionScalarParameter_0"')
+      MaterialExpressionEditorX=-768
+      MaterialExpressionEditorY=-96
+      MaterialExpressionGuid=9ECC41D2426B1A620E54C3BA2E8C8B0F
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_2"
+      A=(Expression=MaterialExpressionScalarParameter'"M_MetalFloor_01:MaterialExpressionScalarParameter_3"')
+      Alpha=(Expression=MaterialExpressionAdd'"M_MetalFloor_01:MaterialExpressionAdd_0"')
+      MaterialExpressionEditorX=-403
+      MaterialExpressionEditorY=73
+      MaterialExpressionGuid=0B40F8BA48294D51B144D3BDBC04731B
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=MaterialFunction'"/Game/MFunction/MF_MacroVariation.MF_MacroVariation"'
+      FunctionInputs(0)=(ExpressionInputId=794A61DF49FA69C04C43789933E2EC6F,Input=(OutputIndex=-1,InputName="MacroTexture"))
+      FunctionInputs(1)=(ExpressionInputId=61640AFA435EEA274A6BC9A48BBBB937,Input=(OutputIndex=-1,InputName="BigScale"))
+      FunctionInputs(2)=(ExpressionInputId=956BC4DC4B3D9E4900623EB1881A4A13,Input=(OutputIndex=-1,InputName="LargeScale"))
+      FunctionInputs(3)=(ExpressionInputId=C1A00BF14FB90D5325EC299F6CF9A180,Input=(OutputIndex=-1,InputName="ToneScale"))
+      FunctionInputs(4)=(ExpressionInputId=5E61858E45F627EE5E1C6DB3454FBEC7,Input=(OutputIndex=-1,InputName="ToneBridgness"))
+      FunctionInputs(5)=(ExpressionInputId=34BFC1B54EC3BE5F60C683B54014004B,Input=(OutputIndex=-1,InputName="BigBridgness"))
+      FunctionInputs(6)=(ExpressionInputId=46CB52EC4BFD3EAB0232BD949649DF83,Input=(OutputIndex=-1,InputName="LargeBridgness"))
+      FunctionOutputs(0)=(ExpressionOutputId=C2AE214C46685726BB2317A363E8AC27,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-1136
+      MaterialExpressionEditorY=-576
+      MaterialExpressionGuid=CE26E46D45BA3C42840F1A9F97D5C311
+      Material=Material'"M_MetalFloor_01"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionTextureSample'"M_MetalFloor_01:MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionLinearInterpolate'"M_MetalFloor_01:MaterialExpressionLinearInterpolate_0"')
+      MaterialExpressionEditorX=-416
+      MaterialExpressionEditorY=-192
+      MaterialExpressionGuid=669EC283481CAD282D4563BF4285D228
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_2"
+      A=(Expression=MaterialExpressionAppendVector'"M_MetalFloor_01:MaterialExpressionAppendVector_3"')
+      B=(Expression=MaterialExpressionTextureSample'"M_MetalFloor_01:MaterialExpressionTextureSample_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-672
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=6824AD8642A44FDF68B504BE37936DF6
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_3"
+      A=(Expression=MaterialExpressionTextureCoordinate'"M_MetalFloor_01:MaterialExpressionTextureCoordinate_0"')
+      B=(Expression=MaterialExpressionAppendVector'"M_MetalFloor_01:MaterialExpressionAppendVector_4"')
+      MaterialExpressionEditorX=-1466
+      MaterialExpressionEditorY=-126
+      MaterialExpressionGuid=AF89E9794AD545A969BE9F8E018F85C7
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_0"
+      Input=(Expression=MaterialExpressionLinearInterpolate'"M_MetalFloor_01:MaterialExpressionLinearInterpolate_0"')
+      MaterialExpressionEditorX=-864
+      MaterialExpressionEditorY=-96
+      MaterialExpressionGuid=88027BA64FE21E8AB2DC649F35D6F3DB
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=0.200000
+      ParameterName="MacroOpacity"
+      ExpressionGUID=FA4584D34AAA52DCB06784B1E87D1325
+      MaterialExpressionEditorX=-1056
+      MaterialExpressionEditorY=-352
+      MaterialExpressionGuid=2667E59E4A129A8BD9009FAE6125D83C
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      ParameterName="NormalScaler"
+      ExpressionGUID=E5F46B21454474F5118E97A5058597B1
+      MaterialExpressionEditorX=-976
+      MaterialExpressionEditorY=512
+      MaterialExpressionGuid=3C2E654647890905E2A307B214549FC1
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_2"
+      DefaultValue=0.800000
+      ParameterName="Metalic"
+      ExpressionGUID=EB1CCF8841E45DA58B8B74A44BFCD60E
+      MaterialExpressionEditorX=-256
+      MaterialExpressionEditorY=32
+      MaterialExpressionGuid=2EEA9AB24E99572D4FB76D94D3960FFD
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_3"
+      DefaultValue=0.200000
+      ParameterName="LowRoughness"
+      ExpressionGUID=5C6AA74941641B4720DA2ABEA79ED975
+      MaterialExpressionEditorX=-640
+      MaterialExpressionEditorY=80
+      MaterialExpressionGuid=195902FC489B0E6418102B8B2DFBE2B8
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_4"
+      DefaultValue=1.000000
+      ParameterName="Tile"
+      ExpressionGUID=36761C5E417A1243FC40DCB5A059A237
+      MaterialExpressionEditorX=-1712
+      MaterialExpressionEditorY=-96
+      MaterialExpressionGuid=42584D1B4A18856623BDCEA0C61448FD
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_0"
+      MaterialExpressionEditorX=-1620
+      MaterialExpressionEditorY=-169
+      MaterialExpressionGuid=783837D742DD3E556F5C8BA279C725D9
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Coordinates=(Expression=MaterialExpressionMultiply'"M_MetalFloor_01:MaterialExpressionMultiply_3"')
+      Texture=Texture2D'"/Game/Textures/Metals/T_MetalFloor_01_A.T_MetalFloor_01_A"'
+      MaterialExpressionEditorX=-1104
+      MaterialExpressionEditorY=-240
+      MaterialExpressionGuid=6C4A49404027D4D477B1438E1F7C013A
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Coordinates=(Expression=MaterialExpressionMultiply'"M_MetalFloor_01:MaterialExpressionMultiply_3"')
+      Texture=Texture2D'"/Game/Textures/Metals/T_MetalFloor_01_M.T_MetalFloor_01_M"'
+      MaterialExpressionEditorX=-1072
+      MaterialExpressionEditorY=48
+      MaterialExpressionGuid=7FA7793B49B7F3E092FD2C81CAF06485
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Coordinates=(Expression=MaterialExpressionMultiply'"M_MetalFloor_01:MaterialExpressionMultiply_3"')
+      Texture=Texture2D'"/Game/Textures/Metals/T_MetalFloor_01_N.T_MetalFloor_01_N"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-832
+      MaterialExpressionEditorY=304
+      MaterialExpressionGuid=6A9E109D4DDAD205D9B141B3517D44E4
+      Material=Material'"M_MetalFloor_01"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"')
+   Metallic=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_2"')
+   Roughness=(Expression=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_2"')
+   Normal=(Expression=MaterialExpressionAdd'"MaterialExpressionAdd_1"')
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(1)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_2"'
+   Expressions(2)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_2"'
+   Expressions(3)=MaterialExpressionAdd'"MaterialExpressionAdd_1"'
+   Expressions(4)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(5)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(6)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   Expressions(7)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"'
+   Expressions(8)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"'
+   Expressions(9)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   Expressions(10)=MaterialExpressionOneMinus'"MaterialExpressionOneMinus_0"'
+   Expressions(11)=MaterialExpressionAdd'"MaterialExpressionAdd_0"'
+   Expressions(12)=MaterialExpressionDesaturation'"MaterialExpressionDesaturation_0"'
+   Expressions(13)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_1"'
+   Expressions(14)=MaterialExpressionMultiply'"MaterialExpressionMultiply_2"'
+   Expressions(15)=MaterialExpressionAppendVector'"MaterialExpressionAppendVector_2"'
+   Expressions(16)=MaterialExpressionAppendVector'"MaterialExpressionAppendVector_3"'
+   Expressions(17)=MaterialExpressionConstant'"MaterialExpressionConstant_3"'
+   Expressions(18)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"'
+   Expressions(19)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_3"'
+   Expressions(20)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_0"'
+   Expressions(21)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_4"'
+   Expressions(22)=MaterialExpressionAppendVector'"MaterialExpressionAppendVector_4"'
+   Expressions(23)=MaterialExpressionMultiply'"MaterialExpressionMultiply_3"'
+   MaterialFunctionInfos(0)=(StateId=11BDEC284362A4E97394EA9C68207ECF,Function=MaterialFunction'"/Game/MFunction/MF_MacroVariation.MF_MacroVariation"')
+   bCanMaskedBeAssumedOpaque=True
+   StateId=9558171149131D881C90C6BA394DE859
+   ReferencedTextureGuids(0)=C65C2E174B1BC8BA225616B68FFD834A
+   ReferencedTextureGuids(1)=D234FB044822CA4021EFD09D3A43C684
+   ReferencedTextureGuids(2)=0C068365468906DC61E61398C2297CBA
+   ReferencedTextureGuids(3)=80C19E044DECA806D31CA5B32D8C3312
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=5C948A6640769F3C9B435EBA0B471931
+End Object

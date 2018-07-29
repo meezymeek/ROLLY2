@@ -1,0 +1,503 @@
+Begin Object Class=/Script/Engine.Material Name="Dymanic_TronGlow"
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComment Name="MaterialExpressionComment_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPower Name="MaterialExpressionPower_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPower Name="MaterialExpressionPower_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPower Name="MaterialExpressionPower_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPower Name="MaterialExpressionPower_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionRotator Name="MaterialExpressionRotator_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionRotator Name="MaterialExpressionRotator_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionRotator Name="MaterialExpressionRotator_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_17"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_18"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_19"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_20"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSubtract Name="MaterialExpressionSubtract_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSubtract Name="MaterialExpressionSubtract_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSubtract Name="MaterialExpressionSubtract_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSubtract Name="MaterialExpressionSubtract_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_4"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionClamp_2"
+      Input=(Expression=MaterialExpressionSubtract'"Dymanic_TronGlow:MaterialExpressionSubtract_2"')
+      MaterialExpressionEditorX=-912
+      MaterialExpressionEditorY=-704
+      MaterialExpressionGuid=E744447F4A5FC625A82756BDC80377B9
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_5"
+      Input=(Expression=MaterialExpressionSubtract'"Dymanic_TronGlow:MaterialExpressionSubtract_5"')
+      MaterialExpressionEditorX=-896
+      MaterialExpressionEditorY=-320
+      MaterialExpressionGuid=E744447F4A5FC625A82756BDC80377B9
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_8"
+      Input=(Expression=MaterialExpressionSubtract'"Dymanic_TronGlow:MaterialExpressionSubtract_8"')
+      MaterialExpressionEditorX=-896
+      MaterialExpressionGuid=E744447F4A5FC625A82756BDC80377B9
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_9"
+      Input=(Expression=MaterialExpressionSubtract'"Dymanic_TronGlow:MaterialExpressionSubtract_9"')
+      MaterialExpressionEditorX=-896
+      MaterialExpressionEditorY=352
+      MaterialExpressionGuid=E744447F4A5FC625A82756BDC80377B9
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionComment_0"
+      SizeX=2318
+      SizeY=1594
+      Text="Glow Function"
+      MaterialExpressionEditorX=-2242
+      MaterialExpressionEditorY=-1013
+      MaterialExpressionGuid=7D38362044CC3C5E8AE9EAB17DF3A4CE
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_2"
+      MaterialExpressionEditorX=560
+      MaterialExpressionEditorY=448
+      MaterialExpressionGuid=ACB240E2412481F955F3D99A23A9458A
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_5"
+      R=0.500000
+      MaterialExpressionEditorX=-2192
+      MaterialExpressionEditorY=-384
+      MaterialExpressionGuid=971260C948DAB390BC91AABEC7653BFD
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_8"
+      R=1.000000
+      MaterialExpressionEditorX=-2192
+      MaterialExpressionEditorY=-64
+      MaterialExpressionGuid=971260C948DAB390BC91AABEC7653BFD
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_9"
+      R=1.500000
+      MaterialExpressionEditorX=-2192
+      MaterialExpressionEditorY=288
+      MaterialExpressionGuid=971260C948DAB390BC91AABEC7653BFD
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      A=(Expression=MaterialExpressionClamp'"Dymanic_TronGlow:MaterialExpressionClamp_2"')
+      B=(Expression=MaterialExpressionClamp'"Dymanic_TronGlow:MaterialExpressionClamp_5"')
+      MaterialExpressionEditorX=-480
+      MaterialExpressionEditorY=-224
+      MaterialExpressionGuid=AA3CE46C4A02E9017C8189A042DF9AD7
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_1"
+      A=(Expression=MaterialExpressionClamp'"Dymanic_TronGlow:MaterialExpressionClamp_8"')
+      B=(Expression=MaterialExpressionClamp'"Dymanic_TronGlow:MaterialExpressionClamp_9"')
+      MaterialExpressionEditorX=-480
+      MaterialExpressionEditorY=-112
+      MaterialExpressionGuid=5434BD4C4C64313A0D6FEA839E2B873A
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_2"
+      A=(Expression=MaterialExpressionLinearInterpolate'"Dymanic_TronGlow:MaterialExpressionLinearInterpolate_0"')
+      B=(Expression=MaterialExpressionLinearInterpolate'"Dymanic_TronGlow:MaterialExpressionLinearInterpolate_1"')
+      MaterialExpressionEditorX=-288
+      MaterialExpressionEditorY=-176
+      MaterialExpressionGuid=80CB3DED401A1880C635F88750E5678F
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_2"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Math/Pi.Pi"'
+      FunctionInputs(0)=(ExpressionInputId=84B7E00B475AA443B5528B9B43EBDA1E,Input=(Expression=MaterialExpressionConstant'"Dymanic_TronGlow:MaterialExpressionConstant_5"',InputName="Multiplier"))
+      FunctionOutputs(0)=(ExpressionOutputId=D4753A094317F28FD02E698B43558358,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-2096
+      MaterialExpressionEditorY=-384
+      MaterialExpressionGuid=28AE9F8C414DEAF3207CEBAFF3F22B2F
+      Material=Material'"Dymanic_TronGlow"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_5"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Math/Pi.Pi"'
+      FunctionInputs(0)=(ExpressionInputId=84B7E00B475AA443B5528B9B43EBDA1E,Input=(Expression=MaterialExpressionConstant'"Dymanic_TronGlow:MaterialExpressionConstant_8"',InputName="Multiplier"))
+      FunctionOutputs(0)=(ExpressionOutputId=D4753A094317F28FD02E698B43558358,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-2096
+      MaterialExpressionEditorY=-64
+      MaterialExpressionGuid=28AE9F8C414DEAF3207CEBAFF3F22B2F
+      Material=Material'"Dymanic_TronGlow"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_6"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Math/Pi.Pi"'
+      FunctionInputs(0)=(ExpressionInputId=84B7E00B475AA443B5528B9B43EBDA1E,Input=(Expression=MaterialExpressionConstant'"Dymanic_TronGlow:MaterialExpressionConstant_9"',InputName="Multiplier"))
+      FunctionOutputs(0)=(ExpressionOutputId=D4753A094317F28FD02E698B43558358,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-2096
+      MaterialExpressionEditorY=288
+      MaterialExpressionGuid=28AE9F8C414DEAF3207CEBAFF3F22B2F
+      Material=Material'"Dymanic_TronGlow"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionMultiply'"Dymanic_TronGlow:MaterialExpressionMultiply_1"')
+      B=(Expression=MaterialExpressionScalarParameter'"Dymanic_TronGlow:MaterialExpressionScalarParameter_20"')
+      MaterialExpressionEditorX=352
+      MaterialExpressionEditorY=96
+      MaterialExpressionGuid=22555A834A71B8A5B33C3F9B954B05B8
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionLinearInterpolate'"Dymanic_TronGlow:MaterialExpressionLinearInterpolate_2"')
+      B=(Expression=MaterialExpressionVectorParameter'"Dymanic_TronGlow:MaterialExpressionVectorParameter_4"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-128
+      MaterialExpressionEditorY=16
+      MaterialExpressionGuid=59FB69CA414539CB8E062EBAC9E9884F
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionPower_2"
+      Base=(Expression=MaterialExpressionTextureSampleParameter2D'"Dymanic_TronGlow:MaterialExpressionTextureSampleParameter2D_3"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Exponent=(Expression=MaterialExpressionScalarParameter'"Dymanic_TronGlow:MaterialExpressionScalarParameter_4"')
+      MaterialExpressionEditorX=-1376
+      MaterialExpressionEditorY=-800
+      MaterialExpressionGuid=3B422C0842087BEE779DCD8409A98BFB
+      Material=Material'"Dymanic_TronGlow"'
+      bRealtimePreview=True
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionPower_5"
+      Base=(Expression=MaterialExpressionTextureSampleParameter2D'"Dymanic_TronGlow:MaterialExpressionTextureSampleParameter2D_6"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Exponent=(Expression=MaterialExpressionScalarParameter'"Dymanic_TronGlow:MaterialExpressionScalarParameter_10"')
+      MaterialExpressionEditorX=-1360
+      MaterialExpressionEditorY=-416
+      MaterialExpressionGuid=3B422C0842087BEE779DCD8409A98BFB
+      Material=Material'"Dymanic_TronGlow"'
+      bRealtimePreview=True
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionPower_8"
+      Base=(Expression=MaterialExpressionTextureSampleParameter2D'"Dymanic_TronGlow:MaterialExpressionTextureSampleParameter2D_9"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Exponent=(Expression=MaterialExpressionScalarParameter'"Dymanic_TronGlow:MaterialExpressionScalarParameter_16"')
+      MaterialExpressionEditorX=-1360
+      MaterialExpressionEditorY=-96
+      MaterialExpressionGuid=3B422C0842087BEE779DCD8409A98BFB
+      Material=Material'"Dymanic_TronGlow"'
+      bRealtimePreview=True
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionPower_9"
+      Base=(Expression=MaterialExpressionTextureSampleParameter2D'"Dymanic_TronGlow:MaterialExpressionTextureSampleParameter2D_10"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Exponent=(Expression=MaterialExpressionScalarParameter'"Dymanic_TronGlow:MaterialExpressionScalarParameter_18"')
+      MaterialExpressionEditorX=-1360
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=3B422C0842087BEE779DCD8409A98BFB
+      Material=Material'"Dymanic_TronGlow"'
+      bRealtimePreview=True
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionRotator_2"
+      Time=(Expression=MaterialExpressionMaterialFunctionCall'"Dymanic_TronGlow:MaterialExpressionMaterialFunctionCall_2"')
+      Speed=1.000000
+      MaterialExpressionEditorX=-1872
+      MaterialExpressionEditorY=-416
+      MaterialExpressionGuid=A00CD28647B3447DFE12A4B31BE66073
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionRotator_5"
+      Time=(Expression=MaterialExpressionMaterialFunctionCall'"Dymanic_TronGlow:MaterialExpressionMaterialFunctionCall_5"')
+      Speed=1.000000
+      MaterialExpressionEditorX=-1872
+      MaterialExpressionEditorY=-96
+      MaterialExpressionGuid=A00CD28647B3447DFE12A4B31BE66073
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionRotator_6"
+      Time=(Expression=MaterialExpressionMaterialFunctionCall'"Dymanic_TronGlow:MaterialExpressionMaterialFunctionCall_6"')
+      Speed=1.000000
+      MaterialExpressionEditorX=-1872
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=A00CD28647B3447DFE12A4B31BE66073
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_10"
+      DefaultValue=14.000000
+      ParameterName="Sharpen Power"
+      ExpressionGUID=46480501463E42A5D050F4880EFB6047
+      MaterialExpressionEditorX=-1616
+      MaterialExpressionEditorY=-240
+      MaterialExpressionGuid=873C85E6448C41B6CF3FC1B755FAC2CE
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_11"
+      DefaultValue=0.200000
+      ParameterName="Sharpen Subtract"
+      ExpressionGUID=E01BBA864C75C53E94B67398055FD99C
+      MaterialExpressionEditorX=-1344
+      MaterialExpressionEditorY=-208
+      MaterialExpressionGuid=7000DD1F4BA61020888A17B1AB1E5998
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_16"
+      DefaultValue=14.000000
+      ParameterName="Sharpen Power"
+      ExpressionGUID=FDF6E3DC4E6840DF4C67EE87307283B1
+      MaterialExpressionEditorX=-1616
+      MaterialExpressionEditorY=80
+      MaterialExpressionGuid=873C85E6448C41B6CF3FC1B755FAC2CE
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_17"
+      DefaultValue=0.200000
+      ParameterName="Sharpen Subtract"
+      ExpressionGUID=6577E79F4C57D80203FC809084E83329
+      MaterialExpressionEditorX=-1344
+      MaterialExpressionEditorY=112
+      MaterialExpressionGuid=7000DD1F4BA61020888A17B1AB1E5998
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_18"
+      DefaultValue=14.000000
+      ParameterName="Sharpen Power"
+      ExpressionGUID=373355694BEFF748A2624DA6176A8C07
+      MaterialExpressionEditorX=-1616
+      MaterialExpressionEditorY=432
+      MaterialExpressionGuid=873C85E6448C41B6CF3FC1B755FAC2CE
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_19"
+      DefaultValue=0.200000
+      ParameterName="Sharpen Subtract"
+      ExpressionGUID=B93CEEF9449F260E6DCCE8A7F8E4FE1E
+      MaterialExpressionEditorX=-1344
+      MaterialExpressionEditorY=464
+      MaterialExpressionGuid=7000DD1F4BA61020888A17B1AB1E5998
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_20"
+      DefaultValue=90.000000
+      ParameterName="Emissive Strength"
+      ExpressionGUID=4D7B211A43CA0890E293E188364F8B68
+      MaterialExpressionEditorX=80
+      MaterialExpressionEditorY=272
+      MaterialExpressionGuid=ABB0CDF647D55E802827968E732D2714
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_4"
+      DefaultValue=14.000000
+      ParameterName="Sharpen Power"
+      ExpressionGUID=88A9AE8A43C7C722DA12CC8A64C7061B
+      MaterialExpressionEditorX=-1590
+      MaterialExpressionEditorY=-670
+      MaterialExpressionGuid=873C85E6448C41B6CF3FC1B755FAC2CE
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_5"
+      DefaultValue=0.200000
+      ParameterName="Sharpen Subtract"
+      ExpressionGUID=82D2AEFB482DCC5A52DCC6AFCBFA9591
+      MaterialExpressionEditorX=-1360
+      MaterialExpressionEditorY=-592
+      MaterialExpressionGuid=7000DD1F4BA61020888A17B1AB1E5998
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionSubtract_2"
+      A=(Expression=MaterialExpressionPower'"Dymanic_TronGlow:MaterialExpressionPower_2"')
+      B=(Expression=MaterialExpressionScalarParameter'"Dymanic_TronGlow:MaterialExpressionScalarParameter_5"')
+      MaterialExpressionEditorX=-1072
+      MaterialExpressionEditorY=-752
+      MaterialExpressionGuid=94DAD81F44C5158CD42A83A3C2B1ECF2
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionSubtract_5"
+      A=(Expression=MaterialExpressionPower'"Dymanic_TronGlow:MaterialExpressionPower_5"')
+      B=(Expression=MaterialExpressionScalarParameter'"Dymanic_TronGlow:MaterialExpressionScalarParameter_11"')
+      MaterialExpressionEditorX=-1056
+      MaterialExpressionEditorY=-368
+      MaterialExpressionGuid=94DAD81F44C5158CD42A83A3C2B1ECF2
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionSubtract_8"
+      A=(Expression=MaterialExpressionPower'"Dymanic_TronGlow:MaterialExpressionPower_8"')
+      B=(Expression=MaterialExpressionScalarParameter'"Dymanic_TronGlow:MaterialExpressionScalarParameter_17"')
+      MaterialExpressionEditorX=-1056
+      MaterialExpressionEditorY=-48
+      MaterialExpressionGuid=94DAD81F44C5158CD42A83A3C2B1ECF2
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionSubtract_9"
+      A=(Expression=MaterialExpressionPower'"Dymanic_TronGlow:MaterialExpressionPower_9"')
+      B=(Expression=MaterialExpressionScalarParameter'"Dymanic_TronGlow:MaterialExpressionScalarParameter_19"')
+      MaterialExpressionEditorX=-1056
+      MaterialExpressionEditorY=304
+      MaterialExpressionGuid=94DAD81F44C5158CD42A83A3C2B1ECF2
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_10"
+      ParameterName="Gradient / Stripe texture"
+      ExpressionGUID=918B3A1444DE9FC35D70E6AAA9EFF194
+      Coordinates=(Expression=MaterialExpressionRotator'"Dymanic_TronGlow:MaterialExpressionRotator_6"')
+      Texture=Texture2D'"/Game/Textures/Gradients/T_Gradinet_01.T_Gradinet_01"'
+      MaterialExpressionEditorX=-1664
+      MaterialExpressionEditorY=240
+      MaterialExpressionGuid=A0C51DC84EAA1FF4CEA8DF981C6D0D79
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_3"
+      ParameterName="Gradient / Stripe texture"
+      ExpressionGUID=EB2DBF5D43C62DFD70D13CA119ACD7C9
+      Texture=Texture2D'"/Game/Textures/Gradients/T_Gradinet_01.T_Gradinet_01"'
+      MaterialExpressionEditorX=-1699
+      MaterialExpressionEditorY=-963
+      MaterialExpressionGuid=A0C51DC84EAA1FF4CEA8DF981C6D0D79
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_6"
+      ParameterName="Gradient / Stripe texture"
+      ExpressionGUID=C7F58E814B8F0C08254B1488A1F0871C
+      Coordinates=(Expression=MaterialExpressionRotator'"Dymanic_TronGlow:MaterialExpressionRotator_2"')
+      Texture=Texture2D'"/Game/Textures/Gradients/T_Gradinet_01.T_Gradinet_01"'
+      MaterialExpressionEditorX=-1664
+      MaterialExpressionEditorY=-432
+      MaterialExpressionGuid=A0C51DC84EAA1FF4CEA8DF981C6D0D79
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_9"
+      ParameterName="Gradient / Stripe texture"
+      ExpressionGUID=B8B234B546E17CBD2F6DB1897ADDF0A6
+      Coordinates=(Expression=MaterialExpressionRotator'"Dymanic_TronGlow:MaterialExpressionRotator_5"')
+      Texture=Texture2D'"/Game/Textures/Gradients/T_Gradinet_01.T_Gradinet_01"'
+      MaterialExpressionEditorX=-1664
+      MaterialExpressionEditorY=-112
+      MaterialExpressionGuid=A0C51DC84EAA1FF4CEA8DF981C6D0D79
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_4"
+      DefaultValue=(R=0.000000,G=1.000000,B=0.000000,A=1.000000)
+      ParameterName="Glow Colour"
+      ExpressionGUID=96DEF01C4A4783924CDE269C8BD47FE3
+      MaterialExpressionEditorX=-480
+      MaterialExpressionEditorY=688
+      MaterialExpressionGuid=EA369C4448E659C889D807BE39CCF7F7
+      Material=Material'"Dymanic_TronGlow"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_2"')
+   EmissiveColor=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"')
+   bUsedWithStaticLighting=True
+   EditorX=624
+   EditorY=448
+   Expressions(0)=MaterialExpressionConstant'"MaterialExpressionConstant_2"'
+   Expressions(1)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(2)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_3"'
+   Expressions(3)=MaterialExpressionRotator'"MaterialExpressionRotator_2"'
+   Expressions(4)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_2"'
+   Expressions(5)=MaterialExpressionPower'"MaterialExpressionPower_2"'
+   Expressions(6)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_4"'
+   Expressions(7)=MaterialExpressionSubtract'"MaterialExpressionSubtract_2"'
+   Expressions(8)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_5"'
+   Expressions(9)=MaterialExpressionClamp'"MaterialExpressionClamp_2"'
+   Expressions(10)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_6"'
+   Expressions(11)=MaterialExpressionPower'"MaterialExpressionPower_5"'
+   Expressions(12)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_10"'
+   Expressions(13)=MaterialExpressionSubtract'"MaterialExpressionSubtract_5"'
+   Expressions(14)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_11"'
+   Expressions(15)=MaterialExpressionClamp'"MaterialExpressionClamp_5"'
+   Expressions(16)=MaterialExpressionConstant'"MaterialExpressionConstant_5"'
+   Expressions(17)=MaterialExpressionRotator'"MaterialExpressionRotator_5"'
+   Expressions(18)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_5"'
+   Expressions(19)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_9"'
+   Expressions(20)=MaterialExpressionPower'"MaterialExpressionPower_8"'
+   Expressions(21)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_16"'
+   Expressions(22)=MaterialExpressionSubtract'"MaterialExpressionSubtract_8"'
+   Expressions(23)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_17"'
+   Expressions(24)=MaterialExpressionClamp'"MaterialExpressionClamp_8"'
+   Expressions(25)=MaterialExpressionConstant'"MaterialExpressionConstant_8"'
+   Expressions(26)=MaterialExpressionRotator'"MaterialExpressionRotator_6"'
+   Expressions(27)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_6"'
+   Expressions(28)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_10"'
+   Expressions(29)=MaterialExpressionPower'"MaterialExpressionPower_9"'
+   Expressions(30)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_18"'
+   Expressions(31)=MaterialExpressionSubtract'"MaterialExpressionSubtract_9"'
+   Expressions(32)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_19"'
+   Expressions(33)=MaterialExpressionClamp'"MaterialExpressionClamp_9"'
+   Expressions(34)=MaterialExpressionConstant'"MaterialExpressionConstant_9"'
+   Expressions(35)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"'
+   Expressions(36)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_1"'
+   Expressions(37)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_2"'
+   Expressions(38)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_20"'
+   Expressions(39)=MaterialExpressionMultiply'"MaterialExpressionMultiply_1"'
+   Expressions(40)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_4"'
+   EditorComments(0)=MaterialExpressionComment'"MaterialExpressionComment_0"'
+   MaterialFunctionInfos(0)=(StateId=FDF0E21849F6EE8BE9059C85221B2F68,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Math/Pi.Pi"')
+   MaterialFunctionInfos(1)=(StateId=FDF0E21849F6EE8BE9059C85221B2F68,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Math/Pi.Pi"')
+   MaterialFunctionInfos(2)=(StateId=FDF0E21849F6EE8BE9059C85221B2F68,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Math/Pi.Pi"')
+   bCanMaskedBeAssumedOpaque=True
+   StateId=95457D21423418A798E0D892DF55837A
+   ReferencedTextureGuids(0)=54C057284912BEE539FB559B5B90229F
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=C72BEC844E9EC483B0ACD8AC42B2A9FC
+End Object
